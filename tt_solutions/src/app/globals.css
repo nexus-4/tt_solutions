@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .form-input {
+    @apply w-full px-4 py-3 bg-gray-100 border-2 border-gray-200 rounded-lg 
+           focus:outline-none focus:ring-2 focus:ring-purple-300 focus:bg-white;
+  }
+
+  .form-btn {
+    @apply w-full py-3 bg-gradient-to-r from-[#6D0AD8] to-[#8B32E6] text-white 
+           rounded-lg font-semibold hover:shadow-xl transition;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
